@@ -1,0 +1,1 @@
+Buraya Mobile Atlas Creator ile ürettiğin MBTiles dosyasını\nmission_map.mbtiles adıyla koy.\n

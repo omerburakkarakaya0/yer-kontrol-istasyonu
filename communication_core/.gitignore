@@ -1,0 +1,5 @@
+build/
+logs/
+mock_server/.venv/
+__pycache__/
+*.pyc

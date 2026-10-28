@@ -1,0 +1,30 @@
+server:
+  base_url: http://192.168.1.90:5000
+  username: takim1
+  password: '1234'
+  timeout_ms: 1000
+  max_retries: 3
+vehicle_manager:
+  enabled: true
+  telemetry_source: vehicle_manager
+  bind_host: 0.0.0.0
+  heartbeat_port: 9100
+  event_port: 9101
+  vehicle_command_host: 192.168.1.11
+  vehicle_command_port: 9102
+  heartbeat_timeout_ms: 3000
+  command_timeout_ms: 500
+team:
+  team_number: 1
+telemetry:
+  upload_hz: 1.0
+  max_allowed_hz: 2.0
+mavlink:
+  connection_url: udp://:14550
+logging:
+  log_dir: ./logs
+  sqlite_path: ./logs/events.db
+  packet_log_path: ./logs/packets.jsonl
+ipc:
+  websocket_port: 8765
+  rest_port: 8090

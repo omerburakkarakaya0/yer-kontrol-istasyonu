@@ -1,0 +1,27 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dependencies and generated build files
+node_modules/
+build/
+!third_party/uavlogviewer/build/
+build_nmake/
+dist/
+
+# Runtime output and temporary files
+output/
+tmp/
+tmp_render_checks/
+logs/
+*.log
+
+# Local environment settings
+.env
+.env.*
+!.env.example
+
+# Offline maps are distributed separately
+*.mbtiles

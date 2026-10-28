@@ -1,0 +1,6 @@
+PyQt5>=5.15.0
+PyQtWebEngine>=5.15.0
+opencv-python>=4.5.0
+pymavlink>=2.4.40
+pyserial>=3.5
+PyYAML>=6.0
